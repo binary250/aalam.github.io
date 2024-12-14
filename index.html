@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mohammad Alam Khan</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <script src="https://kit.fontawesome.com/345bad374b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="theme-toggle" class="theme-toggle">
+        <span id="sun-icon" class="icon"><i class="fa-regular fa-sun fa-xs" style="color: #FFD43B;"></i></span> <!-- Sun icon -->
+        <span id="moon-icon" class="icon">&#9789;</span> <!-- Moon icon -->
+      </div>
+      
+ <header class="main-header">
+  <div class="header-overlay"></div>
+  <div class="container">
+    <h1 class="title">
+      Hi, I'm <span class="highlight typing-effect" id="typed-name"></span>
+    </h1>
+    <p class="subtitle animated-text">
+      Crafting technology with creativity and precision.
+    </p>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main>
+    <section id="about" class="about-section">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-image">
+        <img src="images/image.jpeg" alt="About Me">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm <span class="highlight">Mohammad Alam Khan </span>, a passionate Computer Science student specializing in building creative and efficient solutions. With a strong foundation in coding, design, and problem-solving, I enjoy exploring new technologies and applying them to real-world challenges.
+        </p>
+        <p>
+          When I'm not coding, you'll find me exploring new ideas, reading, or experimenting with creative projects.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+      <div class="container">
+        <h2>My Journey</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>2024-25</h3>
+              <p>Pursuing Master's in Computer Application from Uttranchal University, Dehradun.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>2023</h3>
+              <p>Developed a machine learning model for predictive analytics, achieving 95% accuracy.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>2021-24</h3>
+              <p>Completed Bachelor's In Computer Application from Integral University, Lucknow</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+  <div class="container">
+    <h2>Projects</h2>
+    <p class="projects-description">Here are some of my recent works:</p>
+    <div class="projects-grid">
+      <div class="project-card" data-title="Project 1" data-desc="This is a detailed description of Project 1.">
+        <div class="project-content">
+          <h3>Movie ticket Booking system </h3>
+          <p>This project was developed using python, it was my second year minor project. The project uses python flask for running and it was a web based application.
+            </p>
+        </div>
+      </div>
+      <div class="project-card" data-title="Project 2" data-desc="This is a detailed description of Project 2.">
+        <div class="project-content">
+          <h3>Placement Cell </h3>
+          <p>Developed my final year major project with my team. We have created a placement cell portal using html, css, js and php as backend service. The project show the skill we have learnt so far from the institute and using those concept we developed it.</p>
+        </div>
+      </div>
+      <div class="project-card" data-title="Project 3" data-desc="This is a detailed description of Project 3.">
+        <div class="project-content">
+          <h3>Task Management System</h3>
+          <p>The Task Management System is a web application which allow the admin and employee to manage the task. The core feature of the project are RBAC, CURD. </p>
+        </div>
+      </div>
+      <!-- Add more project cards as needed -->
+      <div class="project-card" data-title="Project 4" data-desc="This is a detailed description of Project 4.">
+        <div class="project-content">
+          <h3>E-Commerce Website</h3>
+          <p>Under Development</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Modal for Project Details -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modal-title">Project Title</h3>
+      <p id="modal-description">Project description goes here.</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Have a question or want to work together? Reach out to me!</p>
+        <!--form id="contact-form" class="contact-form" method="POST" action="process_form.php">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form-->
+        <div class="social-links">
+      <a href="mailto:maalam.khann@gmail.com" target="_blank"><i class="fa-regular fa-envelope"style="color: yellow;"></i></a>
+      <a href="https://www.linkedin.com/in/alam-khan-57963b32a" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Binary250" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/aalam.o1" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="main-footer">
+    <p>&copy; 2024 <span class="highlight">Mohammad Alam Khan </span>. Designed with 💜.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
